@@ -1,0 +1,9 @@
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\CapaDeNegocios.dll
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\CapaDeNegocios.pdb
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\CapaDeDatos.dll
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\info.lundin.Math.dll
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\MySql.Data.dll
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\bin\Debug\CapaDeDatos.pdb
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.csprojResolveAssemblyReference.cache
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.dll
+C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.pdb
