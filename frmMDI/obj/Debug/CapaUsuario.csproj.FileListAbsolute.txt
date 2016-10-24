@@ -1,2 +1,3 @@
 C:\Users\ADVANCE\Source\Repos\sln_edirius_salud\frmMDI\bin\Debug\frmMDI.exe.config
 C:\Users\ADVANCE\Source\Repos\sln_edirius_salud\saludEdirius\frmMDI\bin\Debug\frmMDI.exe.config
+D:\SITEMAS\saludEdirius\frmMDI\bin\Debug\frmMDI.exe.config
