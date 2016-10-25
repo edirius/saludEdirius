@@ -22,6 +22,7 @@ namespace frmMDI
         string stelefono = "";
         string sidtestablecimientosalud = "";
 
+        CapaDeNegocios.cPaciente miPaciente = new CapaDeNegocios.cPaciente();
         public frmMantenimientoPaciente()
         {
             InitializeComponent();
@@ -34,9 +35,9 @@ namespace frmMDI
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            frmPaciente fMaestroDescuentos = new frmPaciente();
-            //fMaestroDescuentos.RecibirDatos(0, "", "", "", "", 1);
-            if (fMaestroDescuentos.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            frmPaciente fPaciente = new frmPaciente();
+            //fPaciente.RecibirDatos(0, "", "", "", "", 1);
+            if (fPaciente.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 CargarDatos();
             }
@@ -44,14 +45,14 @@ namespace frmMDI
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if (sidtmaestrodescuentos == 0 && dgvMaestroDescuentos.SelectedRows.Count > 0)
+            if (sidtpaciente == "" && dgvPaciente.SelectedRows.Count > 0)
             {
                 MessageBox.Show("Debe seleccionar nuevamente los datos", "Mensaje de error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            CapaUsuario.Sunat.frmMaestroDescuentos fMaestroDescuentos = new CapaUsuario.Sunat.frmMaestroDescuentos();
-            fMaestroDescuentos.RecibirDatos(sidtmaestrodescuentos, scodigo, sdescripcion, scalculo, sabreviacion, 2);
-            if (fMaestroDescuentos.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            frmPaciente fPaciente = new frmPaciente();
+            //fPaciente.RecibirDatos(sidtmaestrodescuentos, scodigo, sdescripcion, scalculo, sabreviacion, 2);
+            if (fPaciente.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 CargarDatos();
             }
@@ -59,7 +60,7 @@ namespace frmMDI
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (sidtmaestrodescuentos == 0 && dgvMaestroDescuentos.SelectedRows.Count > 0)
+            if (sidtpaciente == "" && dgvPaciente.SelectedRows.Count > 0)
             {
                 MessageBox.Show("Debe seleccionar nuevamente los datos", "Mensaje de error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -68,8 +69,7 @@ namespace frmMDI
             {
                 return;
             }
-            miMaestroDescuentos.IdtMaestroDescuentos = sidtmaestrodescuentos;
-            miMaestroDescuentos.EliminarMaestroDescuentos(miMaestroDescuentos);
+            miPaciente.EliminarPaciente(sidtpaciente);
             CargarDatos();
         }
 
@@ -85,25 +85,25 @@ namespace frmMDI
 
         private void dgvMaestroDescuentos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            sidtmaestrodescuentos = Convert.ToInt32(dgvMaestroDescuentos.Rows[e.RowIndex].Cells[0].Value);
-            scodigo = Convert.ToString(dgvMaestroDescuentos.Rows[e.RowIndex].Cells[1].Value);
-            sdescripcion = Convert.ToString(dgvMaestroDescuentos.Rows[e.RowIndex].Cells[2].Value);
-            scalculo = Convert.ToString(dgvMaestroDescuentos.Rows[e.RowIndex].Cells[3].Value);
-            sabreviacion = Convert.ToString(dgvMaestroDescuentos.Rows[e.RowIndex].Cells[4].Value);
+            //sidtmaestrodescuentos = Convert.ToInt32(dgvPaciente.Rows[e.RowIndex].Cells[0].Value);
+            //scodigo = Convert.ToString(dgvPaciente.Rows[e.RowIndex].Cells[1].Value);
+            //sdescripcion = Convert.ToString(dgvPaciente.Rows[e.RowIndex].Cells[2].Value);
+            //scalculo = Convert.ToString(dgvPaciente.Rows[e.RowIndex].Cells[3].Value);
+            //sabreviacion = Convert.ToString(dgvPaciente.Rows[e.RowIndex].Cells[4].Value);
         }
 
         private void CargarDatos()
         {
-            dgvMaestroDescuentos.Rows.Clear();
-            foreach (DataRow row in miMaestroDescuentos.ListarMaestroDescuentos().Rows)
+            dgvPaciente.Rows.Clear();
+            foreach (DataRow row in miPaciente.ListarPaciente("").Rows)
             {
-                dgvMaestroDescuentos.Rows.Add(row[0].ToString(), row[1].ToString(), row[2].ToString(), row[3].ToString(), row[4].ToString());
+                dgvPaciente.Rows.Add(row[0].ToString(), row[1].ToString(), row[2].ToString(), row[3].ToString(), row[4].ToString());
             }
-            if (dgvMaestroDescuentos.Rows.Count > 0)
+            if (dgvPaciente.Rows.Count > 0)
             {
-                dgvMaestroDescuentos.Rows[0].Selected = true;
+                dgvPaciente.Rows[0].Selected = true;
                 DataGridViewCellEventArgs ceo = new DataGridViewCellEventArgs(0, 0);
-                dgvMaestroDescuentos_CellClick(dgvMaestroDescuentos, ceo);
+                dgvMaestroDescuentos_CellClick(dgvPaciente, ceo);
             }
         }
     }
