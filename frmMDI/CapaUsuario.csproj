@@ -58,6 +58,12 @@
     <Compile Include="frmMantenimientoPaciente.Designer.cs">
       <DependentUpon>frmMantenimientoPaciente.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantenimientoPaciente.resx">
       <DependentUpon>frmMantenimientoPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPaciente.resx">
       <DependentUpon>frmPaciente.cs</DependentUpon>
@@ -99,6 +108,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EstablecimientoSalud\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDeDatos\CapaDeDatos.csproj">
+      <Project>{0ad70875-403b-44ad-b9c7-47f27bbebb5d}</Project>
+      <Name>CapaDeDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaDeNegocios\CapaDeNegocios.csproj">
+      <Project>{24921af8-19f7-4b75-a697-f5de39a839a1}</Project>
+      <Name>CapaDeNegocios</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
