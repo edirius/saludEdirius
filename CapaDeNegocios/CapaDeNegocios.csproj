@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cpaciente.cs" />
+    <Compile Include="cPaciente.cs" />
     <Compile Include="EstablecimientoSalud\cEstablecimientoSalud.cs" />
     <Compile Include="EstablecimientoSalud\cMicrored.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
