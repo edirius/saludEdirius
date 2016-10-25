@@ -9,3 +9,5 @@ D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\frmMDI.Properties.Resources.resources
 D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\CapaUsuario.csproj.GenerateResource.Cache
 D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\frmMDI.exe
 D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\frmMDI.pdb
+D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\frmMDI.frmMantenimientoPaciente.resources
+D:\SITEMAS\saludEdirius\frmMDI\obj\Debug\frmMDI.frmPaciente.resources

@@ -7,3 +7,10 @@ C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegoci
 C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.csprojResolveAssemblyReference.cache
 C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.dll
 C:\Users\ADVANCE\Source\Repos\slnRecursosHumanos\slnRecursosHumanos\CapaDeNegocios\obj\Debug\CapaDeNegocios.pdb
+D:\SITEMAS\saludEdirius\CapaDeNegocios\obj\Debug\CapaDeNegocios.csprojResolveAssemblyReference.cache
+D:\SITEMAS\saludEdirius\CapaDeNegocios\obj\Debug\CapaDeNegocios.dll
+D:\SITEMAS\saludEdirius\CapaDeNegocios\obj\Debug\CapaDeNegocios.pdb
+D:\SITEMAS\saludEdirius\CapaDeNegocios\bin\Debug\CapaDeNegocios.dll
+D:\SITEMAS\saludEdirius\CapaDeNegocios\bin\Debug\CapaDeNegocios.pdb
+D:\SITEMAS\saludEdirius\CapaDeNegocios\bin\Debug\CapaDeDatos.dll
+D:\SITEMAS\saludEdirius\CapaDeNegocios\bin\Debug\CapaDeDatos.pdb

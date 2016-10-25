@@ -9,7 +9,7 @@ using CapaDeDatos;
 
 namespace CapaDeNegocios
 {
-    public class cpaciente
+    public class cPaciente
     {
         string sidtpaciente;
         string snombres;
@@ -45,13 +45,13 @@ namespace CapaDeNegocios
             return Conexion.GDatos.TraerDataTable("spListarPaciente", idtestablecimientosalud);
         }
 
-        public Boolean CrearPaciente(cpaciente mipaciente)
+        public Boolean CrearPaciente(cPaciente mipaciente)
         {
             Conexion.GDatos.Ejecutar("spCrearPaciente", mipaciente.idtpaciente, mipaciente.nombres, mipaciente.apellidopaterno, mipaciente.apellidomaterno, mipaciente.dni, mipaciente.fechanacimiento, mipaciente.direccion, mipaciente.telefono, mipaciente.idtestablecimientosalud);
             return true;
         }
 
-        public Boolean ModificarPaciente(cpaciente mipaciente)
+        public Boolean ModificarPaciente(cPaciente mipaciente)
         {
             Conexion.GDatos.Ejecutar("spModificarPaciente", mipaciente.idtpaciente, mipaciente.nombres, mipaciente.apellidopaterno, mipaciente.apellidomaterno, mipaciente.dni, mipaciente.fechanacimiento, mipaciente.direccion, mipaciente.telefono, mipaciente.idtestablecimientosalud);
             return true;
