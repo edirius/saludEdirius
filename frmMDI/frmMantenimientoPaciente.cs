@@ -39,7 +39,7 @@ namespace frmMDI
             //fPaciente.RecibirDatos(0, "", "", "", "", 1);
             if (fPaciente.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                CargarDatos();
+                //CargarDatos();
             }
         }
 
