@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cpaciente.cs" />
+    <Compile Include="EstablecimientoSalud\cEstablecimientoSalud.cs" />
+    <Compile Include="EstablecimientoSalud\cMicrored.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,3 +1,12 @@
 C:\Users\ADVANCE\Source\Repos\sln_edirius_salud\frmMDI\bin\Debug\frmMDI.exe.config
 C:\Users\ADVANCE\Source\Repos\sln_edirius_salud\saludEdirius\frmMDI\bin\Debug\frmMDI.exe.config
 D:\SITEMAS\saludEdirius\frmMDI\bin\Debug\frmMDI.exe.config
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\bin\Debug\frmMDI.exe.config
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\bin\Debug\frmMDI.exe
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\bin\Debug\frmMDI.pdb
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\CapaUsuario.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\frmMDI.Form1.resources
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\frmMDI.Properties.Resources.resources
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\CapaUsuario.csproj.GenerateResource.Cache
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\frmMDI.exe
+C:\Users\Usuario\Source\Repos\saludEdirius\frmMDI\obj\Debug\frmMDI.pdb
